@@ -33,7 +33,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aperiam sunt quo similique,
                         dolorum consectetur inventore ipsam, officiis neque natus eius harum alias quidem. Possimus
                         nobis in inventore tenetur asperiores.</p>
-                    <a href="#" class="btn btn-primary">reservar ingresso</a>
+                    <a onclick="acao()"  href="#" class="btn btn-primary">reservar ingresso</a>
                 </article>
                 <article class="evento card p-5 m-3">
                     <h2>nome do evento - 05/03/2022</h2>
@@ -41,7 +41,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aperiam sunt quo similique,
                         dolorum consectetur inventore ipsam, officiis neque natus eius harum alias quidem. Possimus
                         nobis in inventore tenetur asperiores.</p>
-                    <a href="#" class="btn btn-primary">reservar ingresso</a>
+                        <a onclick="acao()"  href="#" class="btn btn-primary">reservar ingresso</a>
                 </article>
                 <article class="evento card p-5 m-3">
                     <h2>nome do evento - 05/03/2022</h2>
@@ -49,18 +49,20 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aperiam sunt quo similique,
                         dolorum consectetur inventore ipsam, officiis neque natus eius harum alias quidem. Possimus
                         nobis in inventore tenetur asperiores.</p>
-                    <a href="#" class="btn btn-primary">reservar ingresso</a>
+                        <a onclick="acao()"  href="#" class="btn btn-primary">reservar ingresso</a>
                 </article>
             </div>
 
             <div class="modal">
                 <form action="" method="post">
                     <input type="text" name="nome" placeholder="Nome">
-                    <input type="e-mail" name="email" placeholder="Digite seu e-mail">
+                    <input type="e-mail" name="email" placeholder="Digite seu e-mail"><br>
                     <input type="submit" name="reservar" value="Reservar">    
                     
                 </form>
             </div>
+
+            <div onclick="fechar()"  class="modal-fechar"></div>
             
             <div class="container text-center">
                 <a href="eventos.html" class="btn btn-secondary">ver todos os eventos</a>
@@ -114,6 +116,7 @@
             </nav>
         </div>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

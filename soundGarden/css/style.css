@@ -36,6 +36,18 @@ section.full{
     padding: 50px 0;
 }
 
+.modal{
+    width: 300px;
+    height: 200px;
+    background-color: whitesmoke;  
+    display: none;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
 article.evento {
     width: 350px;
 }
