@@ -12,6 +12,6 @@ Landing Page - Visualizar eventos e fazer reservas
 Painel Administrativo - Criar, editar , excluir e visualizar reservas de eventos
 
 Grupo
-Vinicius Andrade 
-Eduardo Muniz 
+Vinicius Andrade -
+Eduardo Muniz -
 Luana Souza 
