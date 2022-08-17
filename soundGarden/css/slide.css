@@ -1,0 +1,23 @@
+#carrossel {
+  overflow: hidden;
+  height: 1000px;
+  width: 800px;    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+  }
+
+  .container-slides{
+    display: flex;    
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+    
+  }
+
+  .container-slides img{
+    object-fit: cover;
+    width: 1000px;
+    height: 800px;
+  }
+
