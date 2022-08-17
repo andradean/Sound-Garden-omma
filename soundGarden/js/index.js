@@ -39,6 +39,13 @@ function fecharModal(){
     
 }
 
+let modal = document.querySelector('.btnReservas');
+function paginaReservas(){
+
+
+    modal.onclick="location.href='/Sound-Garden-omma/soundGarden/reserva.html'";
+}
+
 
 
 // cards eventos

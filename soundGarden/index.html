@@ -64,7 +64,7 @@
                     <h3 class="titulo">Reserve seu ingresso:</h3>
                 </div>
 
-                <form action="/reserva.html" method="post">
+                <form  method="post">
                     <input type="text" class="itens-form" placeholder="Nome">
                     <input type="e-mail" class="itens-form"  placeholder="Digite seu e-mail">
                     <input type="number" class="itens-form"  value=1 min="1" max="999" id="tickets">
@@ -72,8 +72,7 @@
 
                     <input type="hidden" name="id" id="inputId">
                     <button onclick="fecharModal()" type="button" id="btn-fechar" class="btn btn-secondary botao-modal ">Fechar</button>
-                    <button type="submit" class="btn btn-primary botao-modal ">Reservar ingresso</button>
-                    
+                    <a href="./reserva.html" class="btn btn-primary">Reservar</a>
                 </form>
             </div>
         </div>
