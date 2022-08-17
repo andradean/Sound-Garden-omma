@@ -53,16 +53,29 @@
                 </article>
             </div>
 
+            <!---modal-->
+            <div id="formulario">
             <div class="modal">
-                <form action="" method="post">
-                    <input type="text" name="nome" placeholder="Nome">
-                    <input type="e-mail" name="email" placeholder="Digite seu e-mail"><br>
-                    <input type="submit" name="reservar" value="Reservar">    
+
+                <div class="modal-header">
+                    <h3 class="titulo">Reserve seu ingresso:</h3>
+                </div>
+
+                <form action="/reserva.html" method="post">
+                    <input type="text" class="itens-form" placeholder="Nome">
+                    <input type="e-mail" class="itens-form"  placeholder="Digite seu e-mail">
+                    <input type="number" class="itens-form"  value=1 min="1" max="999" id="tickets">
+                     
+
+                    <input type="hidden" name="id" id="inputId">
+                    <button type="button" id="btn-fechar" class="btn btn-secondary botao-modal ">Fechar</button>
+                    <button type="submit" class="btn btn-primary botao-modal ">Reservar ingresso</button>
                     
                 </form>
             </div>
+        </div>
 
-            <div onclick="fechar()"  class="modal-fechar"></div>
+          
             
             <div class="container text-center">
                 <a href="eventos.html" class="btn btn-secondary">ver todos os eventos</a>
